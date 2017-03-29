@@ -72,10 +72,15 @@ header div p{
 	margin-left: 15px;
 }
 
-
+div.all{
+	border: 5px solid #294fa4;
+	height:1050px;
+	margin: 10px;
+	border-radius: 15px;
+}
 
 section div.derecha{
-	height:300px;    
+	height:100%;    
     float:left;  
     width:45%;
     margin-top: 5px;
@@ -91,12 +96,16 @@ section div.izquierda{
 }
 
 section div.derecha_otorga{
-	height:300px;    
-    float:left;  
-    width:45%;
-    margin-top: 35px;
+	height:90%;    
+    float:right;  
+    width:42%;
+    margin:30px 120px 20px 20px;
     border: 2px solid #294fa4;
     border-radius: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+
+
 }
 
 section h3{
@@ -139,6 +148,7 @@ section div.derecha div.temario{
 }
 
 section div.izquierda div.incluye{
+	margin-top: 0px;
 	margin: 35px;
 }
 
@@ -150,33 +160,34 @@ section p:before{
 
 section h3.otorga{
 	text-align: center;
-	margin: 20px;
+	margin: 10px;
 }
 
 section div.derecha_otorga p.otorga{
 	font-weight: bolder;
-	margin: 50px;
+	margin: 20px;
 }
 
 section div.derecha_otorga p.otorga:before{
 	content: "";
 }
 
-div.derecha_otorga{
-	font-weight: bolder;
-}
-
 section p.otorga1{
-	margin: 50px;
+	margin: 10px;
 	position: relative;
+	font-style: italic;
 }
 section p.otorga2{
-	margin: 50px;
+	margin: 10px;
 	position: relative;
+	font-style: italic;
 }
 section p.otorga3{
-	margin: 50px;
+	margin: 10px;
 	position: relative;
+	text-align: left;
+	font-style: italic;
+	
 }
 
 section p.otorga1:before{
@@ -192,21 +203,42 @@ section p.otorga3:before{
 
 section p.otorga1:after{
 	content: "10";
-	margin-left: 323px;
+	margin-left: 230px;
 	position: relative;
 }
 
 section p.otorga2:after{
 	content: "06";
-	margin-left: 337px;
+	margin-left: 245px;
 	position: relative;
 }
 
 section p.otorga3:after{
 	content: "00";
-	margin-left: 160px;
+	margin-left: 69px;
 	position: relative;
 }
+
+table{
+	width: 80%;
+	height: 100%;
+	margin:30px 0px 0px 90px;
+	opacity: .75;
+	/*margin-top: 30px;
+	margin-left: 100px;
+	*/
+}
+
+tr td{
+	border: 1px solid #294fa4;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #294fa4;
+}
+
 
 footer{
 	background: #294fa4;

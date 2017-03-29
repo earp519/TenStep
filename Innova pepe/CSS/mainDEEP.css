@@ -1,0 +1,262 @@
+/*
+---rojo #c00000---
+*/
+
+
+
+
+body{
+	background: ;
+	font-family: "arial";
+	font-size:15px;
+}
+
+nav{
+	top: 0px;
+	margin: 0px;
+}
+
+nav ul{
+	list-style: none;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header{
+	background: #c00000;
+	margin: 0px 4px 0px 0px;
+}
+
+header figure.logo{
+height: 7%;
+width:7%;
+float:left;
+}
+
+header figure.logo img{
+	height: 100%;
+	width:100%;
+}
+
+header h2{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+header img{
+	height: 300px;
+	width: 1345px;
+	bottom: 0px;
+}
+
+header div{
+	float: right;
+	position: absolute;
+	left: 840px;
+	bottom: 190px;
+	height: 230px;
+	width: 499px;
+	background: white;
+	opacity: .5;	
+}
+
+header div p{
+	font-weight: bolder;
+	font-size: 23px;
+	text-align: justify;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+div.all{
+	border: 5px solid #c00000;
+	height:1200px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+section div.derecha{
+	height:100%;    
+    float:right;  
+    width:45%;
+    margin-top: 15px;
+    margin-right: 98px;
+    padding: 7px;
+}
+
+section div.izquierda{
+	height:100%;  
+    float:left;  
+    width:45%;
+   margin-top: 5px; 
+   padding: 7px;
+}
+
+section div.derecha_otorga{
+	height:90%;    
+    float:left;  
+    width:42%;
+    margin:30px 120px 20px 20px;
+    border: 2px solid #c00000;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: 14px;
+
+
+}
+
+section h3{
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+}
+
+
+section h4{
+	text-align: center;
+	margin: 20px 160px 20px 10px;
+	padding: 7px;
+}
+
+
+section p{
+	text-align: left;
+	position: relative;
+	margin-left: 40px;
+}
+
+section div.izquierda div.objetivo{
+	margin: 20px;
+}
+
+section div.izquierda div.duracion{
+	margin: 35px;
+
+
+}
+
+section div.izquierda div.participar{
+	margin: 35px;
+}
+
+section div.derecha div.prerequisitos{
+	margin: 35px;
+}
+
+section div.derecha div.temario{
+	margin: 35px;
+}
+
+section div.izquierda div.incluye{
+	margin: 35px;
+}
+
+section p:before{
+	content:"-";
+	position:relative;
+	margin:7px;
+}
+
+section h3.otorga{
+	text-align: center;
+	margin: 10px;
+}
+
+section div.derecha_otorga p.otorga{
+	font-weight: bolder;
+	margin: 20px;
+}
+
+section div.derecha_otorga p.otorga:before{
+	content: "";
+}
+
+section p.otorga1{
+	margin: 10px;
+	position: relative;
+	font-style: italic;
+}
+section p.otorga2{
+	margin: 10px;
+	position: relative;
+	font-style: italic;
+}
+section p.otorga3{
+	margin: 10px;
+	position: relative;
+	text-align: left;
+	font-style: italic;
+	
+}
+
+section p.otorga1:before{
+	content: "s";
+}
+
+section p.otorga2:before{
+	content: "s";
+}
+
+section p.otorga3:before{
+	content: "s";}
+
+section p.otorga1:after{
+	content: "40";
+	margin-left: 230px;
+	position: relative;
+}
+
+section p.otorga2:after{
+	content: "04";
+	margin-left: 245px;
+	position: relative;
+}
+
+section p.otorga3:after{
+	content: "04";
+	margin-left: 69px;
+	position: relative;
+}
+
+table{
+	width: 80%;
+	height: 100%;
+	margin:30px 0px 0px 90px;
+	opacity: .75;
+	/*margin-top: 30px;
+	margin-left: 100px;
+	*/
+}
+
+tr td{
+	border: 1px solid #c00000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #c00000;
+}
+
+
+footer{
+	background: #c00000;
+	display: block;
+	color: white;
+	font-style: bold;
+	text-align: center;
+	clear: both;
+	padding: 10px;
+}
+
+span{
+	font-size: 50px;
+	font-weight:bolder;
+	position: relative;
+	float: left;
+	margin-left:50px;
+}
