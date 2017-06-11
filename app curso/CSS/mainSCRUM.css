@@ -255,6 +255,11 @@ tr:nth-child(even) {
     background-color: #294fa4;
 }
 
+section button{
+	border: 2px black solid;
+	
+}
+
 
 footer{
 	background: #294fa4;
