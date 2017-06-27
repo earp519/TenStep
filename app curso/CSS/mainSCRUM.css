@@ -58,7 +58,7 @@ header div{
 	float: right;
 	position: absolute;
 	left: 840px;
-	bottom: 190px;
+	bottom: 150px;
 	height: 230px;
 	width: 499px;
 	background: white;
@@ -74,14 +74,14 @@ header div p{
 
 div.all{
 	border: 5px solid #294fa4;
-	height:1050px;
+	height:1100px;
 	margin: 10px;
 	border-radius: 15px;
 }
 
 section div.derecha{
 	height:100%;    
-    float:left;  
+    float:right;  
     width:45%;
     margin-top: 5px;
     padding: 7px;
@@ -89,8 +89,8 @@ section div.derecha{
 
 section div.izquierda{
 	height:100%;  
-    float:left;  
-    width:45%;
+   float:left;  
+   width:45%;
    margin-top: 5px; 
    padding: 7px;
 }
@@ -149,7 +149,7 @@ section div.derecha div.temario{
 
 section div.izquierda div.incluye{
 	margin-top: 0px;
-	margin: 35px;
+	margin: 40px;
 }
 
 section p:before{
@@ -224,13 +224,13 @@ section p.otorga1:after{
 }
 
 section p.otorga2:after{
-	content: "06";
+	content: "04";
 	margin-left: 245px;
 	position: relative;
 }
 
 section p.otorga3:after{
-	content: "00";
+	content: "10";
 	margin-left: 69px;
 	position: relative;
 }
@@ -256,8 +256,8 @@ tr:nth-child(even) {
 }
 
 section button{
-	border: 2px black solid;
-	
+	margin-top: 60px;
+	margin-left: 70px;
 }
 
 
@@ -278,3 +278,4 @@ span{
 	float: left;
 	margin-left:50px;
 }
+

@@ -58,7 +58,7 @@ header div{
 	float: right;
 	position: absolute;
 	left: 840px;
-	bottom: 190px;
+	bottom: 150px;
 	height: 230px;
 	width: 499px;
 	background: white;
@@ -74,7 +74,7 @@ header div p{
 
 div.all{
 	border: 5px solid #c55b11;
-	height:1050px;
+	height:1150px;
 	margin: 10px;
 	border-radius: 15px;
 }
@@ -256,6 +256,10 @@ tr:nth-child(even) {
     background-color: #c55b11;
 }
 
+section button{
+	margin-top: 60px;
+	margin-left: 70px;
+}
 
 footer{
 	background: #c55b11;

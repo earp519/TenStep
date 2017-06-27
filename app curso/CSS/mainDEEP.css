@@ -58,7 +58,7 @@ header div{
 	float: right;
 	position: absolute;
 	left: 840px;
-	bottom: 190px;
+	bottom: 150px;
 	height: 230px;
 	width: 499px;
 	background: white;
@@ -99,7 +99,7 @@ section div.izquierda{
 
 section div.derecha_otorga{
 	height:90%;    
-    float:left;  
+    float:right;  
     width:42%;
     margin:30px 120px 20px 20px;
     border: 2px solid #c00000;
@@ -135,8 +135,6 @@ section div.izquierda div.objetivo{
 
 section div.izquierda div.duracion{
 	margin: 35px;
-
-
 }
 
 section div.izquierda div.participar{
@@ -152,7 +150,9 @@ section div.derecha div.temario{
 }
 
 section div.izquierda div.incluye{
-	margin: 35px;
+	margin-top: 30px;
+	margin-right: 35px;
+	margin-bottom: 0px;
 }
 
 section p:before{
@@ -258,6 +258,10 @@ tr:nth-child(even) {
     background-color: #c00000;
 }
 
+section button{
+	margin-bottom: 120px;
+	margin-left: 50px;
+}
 
 footer{
 	background: #c00000;

@@ -58,7 +58,7 @@ header div{
 	float: right;
 	position: absolute;
 	left: 840px;
-	bottom: 190px;
+	bottom: 150px;
 	height: 230px;
 	width: 499px;
 	background: white;
@@ -75,14 +75,14 @@ header div p{
 
 div.all{
 	border: 5px solid #203864;
-	height:1350px;
+	height:1250px;
 	margin: 10px;
 	border-radius: 15px;
 }
 
 section div.derecha{
 	height:100%;    
-    float:left;  
+    float:right;  
     width:45%;
     margin-top: 5px;
     padding: 7px;
@@ -100,7 +100,7 @@ section div.derecha_otorga{
 	height:90%;    
     float:right;  
     width:42%;
-    margin:30px 120px 20px 20px;
+    margin:30px 20px 20px 20px;
     border: 2px solid #203864;
     border-radius: 25px;
     font-weight: bolder;
@@ -132,11 +132,11 @@ section div.izquierda div.objetivo{
 	margin: 20px;
 }
 
-section div.izquierda div.duracion{
+section div.derecha div.duracion{
 	margin: 35px;
 }
 
-section div.izquierda div.participar{
+section div.derecha div.participar{
 	margin: 35px;
 }
 
@@ -144,7 +144,7 @@ section div.derecha div.prerequisitos{
 	margin: 35px;
 }
 
-section div.derecha div.temario{
+section div.izquierda div.temario{
 	margin: 35px;
 }
 
@@ -256,6 +256,10 @@ tr:nth-child(even) {
     background-color: #203864;
 }
 
+section button{
+	margin-top: 10px;
+	margin-left: 70px;
+}
 
 footer{
 	background: #203864;
